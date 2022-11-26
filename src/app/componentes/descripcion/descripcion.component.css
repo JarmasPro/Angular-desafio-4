@@ -1,0 +1,97 @@
+/*general*/
+.cont-background{
+  background-color: #EDEDED;
+}
+.div-btn:hover{
+  cursor: pointer;
+}
+.blue{
+  color: #3483FA;
+}
+.green{
+  color: green;
+}
+.black{
+  color: rgb(10, 10, 10);
+}
+.m-0{
+  margin: 0px;
+}
+.text-decoratio-none{
+  text-decoration: none;
+}
+/*img*/
+.img{
+  width: 65%;
+  height: 658px;
+}
+.interfaz-maestro{
+  margin: 1% 1% 1% 0px;
+  font-size: 1.3em;
+}
+/*card*/
+mat-card{
+  width: 35%;
+}
+.precio{
+  font-size: 3em;
+  font-weight: 400;
+}
+.precio2{
+  font-size: 2em;
+  font-weight: 300;
+}
+.font-envio{
+  font-size: 1.9em;
+}
+.m-i-card{
+  margin-top: 8%;
+}
+.font-card{
+  font-size: 1.3em;
+}
+.title-card{
+  font-size: 2.5em;
+  line-height: 40px;
+}
+.unidades-card{
+  font-size: 1.5em;
+}
+.btn-card{
+  width: 90%;
+  margin: 0px;
+  background-color: #3483FA;
+  color: white;
+  border-radius: 5px;
+  height: 60px;
+  border: none;
+  font-size: 1.5em;
+}
+.btn-card:hover{
+  background-color: #286acc;
+}
+
+.item-img{
+  margin-bottom: 15%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 3%;
+  }
+
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 1 / 2 / 2 / 9; }

@@ -1,0 +1,142 @@
+<div id="h" class="d-flex justify-content-end">
+  <header>
+    <div class="div1 d-flex  align-items-center justify-content-end">
+      <img id="logo" src="assets/isotipo-Mercado-Libre.jpg" alt="">
+    </div>
+    <div class="div2 d-flex align-items-center">
+      <input class="barra-busqueda" type="text" [(ngModel)]="busqueda">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search bus-icon btn-buscar" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+      </svg>
+    </div>
+    <div class="div3 d-flex  align-items-center justify-content-center font-envi-express">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+      </svg>
+      <p class="m-0">¡Envió Express <b>en menos de 2 horas!</b></p>
+    </div>
+    <div class="div4 d-flex justify-content-center align-items-center mt-2">
+      <nav class="">
+        <ul class="h-nav-menu">
+          <li class="h-item d-flex align-items-center">
+            categorias
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+              <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="div5 mt-2">
+      <nav class="h-nav">
+        <ul class="d-flex justify-content-between align-items-center h-nav-menu pl-0">
+          <li class="h-item">Historias</li>
+          <li class="h-item">Tiendas oficiales</li>
+          <li class="h-item">Ofertas semanales</li>
+          <li class="h-item">Vende</li>
+          <li class="h-item">Ayuda</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="div6 mt-2">
+      <nav class="h-nav">
+        <ul class="d-flex justify-content-around align-items-center h-nav-menu">
+          <li class="h-item d-flex  align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg>
+            Eduardo
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+              <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+            </svg>
+          </li>
+          <li class="h-item d-flex  align-items-center">Mis compras</li>
+          <li class="h-item d-flex  align-items-center">
+            Favoritos
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+              <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+            </svg>
+          </li>
+          <li class="h-item d-flex  align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+              <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+<ngb-carousel *ngIf="images">
+	<ng-template ngbSlide *ngFor="let image of images">
+		<div class="picsum-img-wrapper">
+			<img class="carouselImg" [src]="image" alt="Random first slide" />
+		</div>
+	</ng-template>
+</ngb-carousel>
+<div id="cont-tienda" >
+  <div class="d-flex justify-content-center titulo" *ngIf="busqueda != '' && busqueda.trim() != ''">
+    <h2>{{ busqueda }}</h2>
+  </div>
+  <div style="padding-top: 1%;">
+    <div class="d-flex align-items-center">
+      <h2 style="margin-left: 0.5%; margin-top: 0.5%;">Relacionado con tus busquedas de electronicos</h2>
+      <p class="enlaceH"> Ver historial</p>
+    </div>
+  <div class="d-flex justify-content-around">
+    <mat-card class="example-card" *ngFor="let producto of productos">
+      <a routerLink="../descripcion/{{ producto.id }}" class="aCard">
+        <div class="d-flex justify-content-center">
+          <img class="cardImg" mat-card-image [src]="producto.imagenUrl" alt="Imagen del producto">
+        </div>
+        <mat-card-content>
+          <h3>
+            {{producto.nombre}}
+          </h3>
+          <p class="precio">
+            <b>
+              {{producto.precio}}
+            </b>
+          </p>
+          <p *ngIf="producto.tipoEnvio == 'Envío gratis'" class="font-green">
+            <b>
+              Envío gratis
+            </b>
+          </p>
+        </mat-card-content>
+       </a>
+    </mat-card>
+  </div>
+  </div>
+  <div style="padding-top: 1%;">
+    <div class="d-flex align-items-center">
+      <h2 style="margin-left: 0.5%; margin-top: 0.5%;">Relacionado con tus busquedas del hogar </h2>
+      <p class="enlaceH"> Ver historial</p>
+    </div>
+    <div class="d-flex justify-content-around">
+      <mat-card class="example-card" *ngFor="let producto2 of productos2">
+        <a routerLink="../descripcion/{{ producto2.id }}" class="aCard">
+          <div class="d-flex justify-content-center">
+            <img class="cardImg" mat-card-image [src]="producto2.imagenUrl" alt="Imagen del producto">
+          </div>
+          <mat-card-content>
+             <h3>
+              {{producto2.nombre}}
+            </h3>
+            <p class="precio">
+              <b>
+                {{producto2.precio}}
+              </b>
+            </p>
+            <p *ngIf="producto2.tipoEnvio == 'Envío gratis'" class="font-green">
+              <b>
+                Envío gratis
+              </b>
+            </p>
+          </mat-card-content>
+         </a>
+        </mat-card>
+    </div>
+  </div>
+</div>
